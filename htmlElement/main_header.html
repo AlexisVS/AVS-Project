@@ -1,0 +1,29 @@
+<div id="menu_bar">
+    <div id="menu_pos">
+        <div class="menu" id="menu" onclick="onClickMenu()">
+        <div class="bar bar1" id="bar1"></div>
+        <div class="bar bar2" id="bar2"></div>
+        <div class="bar bar3" id="bar3"></div>
+    </div>
+</div>
+<ul class="nav" id="nav">
+    <li><a href="extensions_navigateurs.html" class="nav_link" id="nav_link1">Extensions navigateurs</a></li>
+    <li><a href="#" class="nav_link" id="nav_link2">Ressources web</a></li>
+    <li><a href="#" class="nav_link" id="nav_link3">Jeux</a></li>
+    <li><a href="coin_developpement.html" class="nav_link" id="nav_link4">Coin développement</a></li>
+</ul>
+</div>
+<div class="menu_bg" id="menu_bg"></div>
+
+<div id="header_name" onclick="window.location.href='index.html'">
+    <h1>AVS <span id="header_name_span">Project</span></h1>
+    <h2>Ressources & tools</h2>
+</div>
+
+<script>
+    function onClickMenu() {
+        document.getElementById("menu").classList.toggle("change");
+        document.getElementById("nav").classList.toggle("change");
+        document.getElementById("menu_bg").classList.toggle("change_bg");
+    }
+</script>

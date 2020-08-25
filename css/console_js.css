@@ -1,0 +1,28 @@
+/* Blank Template */
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    display: table;
+    width: 100%;
+}
+
+main {
+    min-height: 100vh;
+}
+
+
+/* */
+
+body{
+    background-color: #1f1f1f;
+}
+
+#section2{
+    width: 100vw;
+    display: flex;
+    background-color: #FF5252;
+}

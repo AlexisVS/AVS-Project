@@ -1,0 +1,30 @@
+.main_footer {
+    background-color: #1f1f1f;
+    width: 100%;
+    height: 50px;
+    border-top: 1px solid #17b4ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
+}
+
+.main_footer p {
+    color: #f1f1f1;
+    font-size: 0.75em;
+    letter-spacing: 3px;
+    display: flex;
+    line-height: normal;
+    vertical-align: baseline;
+    word-spacing: 0;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-decoration: none solid rgb(241, 241, 241);
+    text-align: start;
+    text-indent: 0;
+    font-family: Open Sans, sans-serif, Verdana, Arial;
+}

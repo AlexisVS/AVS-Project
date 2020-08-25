@@ -1,0 +1,64 @@
+/* Blank Template */
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    display: table;
+    width: 100%;
+}
+
+main {
+    min-height: 100vh;
+}
+
+
+/* */
+
+body {
+    background-color: #1f1f1f;
+}
+
+#plaine_de_code {
+    font-family: Roboto Mono Thin, monospace;
+    font-size: 2em;
+    text-align: center;
+    letter-spacing:5px;
+    color: rgb(0,0,0);
+}
+
+#separator{
+    border: 1px solid;
+    background: linear-gradient(0.25turn, rgb(0, 227, 167), #17b4ff);
+}
+
+.main_header {
+    border: none !important;
+}
+
+.link_btn_box {
+    font-weight: bolder;
+    color: #f1f1f1;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content:space-between;
+}
+
+.link_btn{
+    border: 1px solid #1f1f1f;
+    height: 50px;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+#link_btn1{
+    background-color: #FF1744;
+    color: #f1f1f1;
+}
+

@@ -1,0 +1,49 @@
+/* DEFAULT */
+h1 {
+    font-family: Roboto Mono ExtraLight;
+    font-size: 1.6em;
+    color: #f1f1f1;
+    line-height: 2.5;
+    text-decoration: underline;
+}
+
+h2 {
+    font-family: Roboto Mono ExtraLight;
+    font-size: 1.4em;
+    color: #f1f1f1;
+    text-decoration: underline;
+
+}
+
+h3 {
+    font-family: Roboto Mono ExtraLight, monospace;
+    font-size: 1.3em;
+    color: #f1f1f1;
+}
+
+h4 {
+    font-family: Roboto Mono ExtraLight, monospace;
+    font-size: 1.2em;
+    color: #f1f1f1;
+}
+
+p {
+    font-family: Open Sans Semibold , sans-serif;
+    font-size: 1em;
+    color: #f1f1f1;
+    line-height: 1.5;
+    letter-spacing: 0.1mm;
+}
+
+a {
+    font-size: 1em;
+    color: #17b4ff;
+    font-family: Open Sans, sans-serif;
+    text-decoration: none;
+}
+
+ul {
+    padding-top: 2em;
+}
+
+/* --------------------------------- */
