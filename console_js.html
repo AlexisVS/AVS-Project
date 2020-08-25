@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Console JS</title>
+    <link rel="stylesheet" href="css/console_js.css">
+    <link rel="stylesheet" href="css/plan_section.css">
+    <link rel="stylesheet" href="css/typographie.css">
+    <script src="javascrypt/app.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script>
+        $(function () {
+            $("#main_header").load("htmlElement/main_header.html")
+        });
+
+        $(function () {
+            $("#main_footer").load("htmlElement/main_footer.html")
+        });
+
+        $("<link/>", {
+            rel: "stylesheet",
+            type: "text/css",
+            href: "css/main_footer.css"
+        }).appendTo("head");
+
+        $("<link/>", {
+            rel: "stylesheet",
+            type: "text/css",
+            href: "css/main_header.css"
+        }).appendTo("head");
+    </script>
+</head>
+<body>
+<header id="main_header" class="main_header"></header>
+<main class="main_container">
+    <section class="container">
+        <div id="second_container">
+            <form action="">
+                <input id="code" required="required" type="text" name="code">
+                <input type="submit" name="submit" onclick="initConsoleJs3"(); return false">
+            </form>
+        </div>
+        <div id="ma_node">
+            <p id="p1"></p>
+        </div>
+    </section>
+
+    <section class="container" id="section2">
+        <div>
+
+        </div>
+    </section>
+</main>
+<footer id="main_footer" class="main_footer"></footer>
+</body>
+</html>

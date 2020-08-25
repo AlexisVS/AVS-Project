@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Extensions navigateurs</title>
+    <link href="css/extensions_navigateurs.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/extensions_navigateurs.css">
+    <link rel="stylesheet" href="css/typographie.css">
+    <link rel="stylesheet" href="css/plan_section.css">
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script>
+        $(function () {
+            $("#main_header").load("htmlElement/main_header.html")
+        });
+
+        $(function () {
+            $("#main_footer").load("htmlElement/main_footer.html")
+        });
+
+        $("<link/>", {
+            rel: "stylesheet",
+            type: "text/css",
+            href: "css/main_footer.css"
+        }).appendTo("head");
+
+        $("<link/>", {
+            rel: "stylesheet",
+            type: "text/css",
+            href: "css/main_header.css"
+        }).appendTo("head");
+    </script>
+</head>
+<body>
+<header id="main_header" class="main_header"></header>
+<main class="main_container">
+    <section class="container">
+        <article class="section_article">
+            <h1 class="h1"> Mes extensions de navigateurs</h1>
+            <p>Voici une liste d'extensions que j'utilise pour le développement WEB et pour mon quotidien</p> <br><br><br>
+            <h2 class="h2">Extensions pour le Developpement</h2>
+            <ul class="ul_blank">
+<!--                clear cache-->
+                <li>
+                    <a class="a_ul" href="https://chrome.google.com/webstore/detail/clear-cache/cppjkneekbjaeellbfkmgnhonkkjfpdn?hl=fr">Clear Cache</a>
+                    <p>Une extension qui permet en un clique de vider les caches de son navigateur</p>
+                <br>
+                </li>
+<!--                font finder-->
+                <li>
+                    <a class="a_ul" href="https://chrome.google.com/webstore/detail/font-finder/bhiichidigehdgphoambhjbekalahgha">Font finder</a>
+                    <p class="before_img">Permet d'avoir tous les attributs CSS d'une police. <br>
+                    Cliquez sur l'extension et puis cliqué sur le texte de votre choix.</p>
+                    <img id="img_border" src="image/fontFinder.PNG" alt="font finder">
+                    <br>
+                </li>
+<!--                jetbrains ide support-->
+                <li>
+                    <a class="a_ul" href="https://chrome.google.com/webstore/detail/jetbrains-ide-support/hmhgeddbohgjknpmjagkdomcpobmllji">JetBrains IDE Support</a>
+                    <p>Une extension développé par la société <a href="http://www.jetbrains.com/">JetBrains</a> qui développe des IDE spécifiques à chaque type de développemnt</p>
+                    <br>
+                </li>
+                <!--                viewport dimensions-->
+                <li>
+                    <a class="a_ul" href="https://chrome.google.com/webstore/detail/viewport-dimensions/kchdfagjljmhgapoonapmfngpadcjkhk">Viewport Dimensions</a>
+                    <p>Extensions qui permet de savoir la résolution de votre viewport. <br>
+                        Très utile pour faire du responsive </p>
+                    <br>
+                </li>
+<!--                material design color palette-->
+                <li>
+                    <a class="a_ul" href="https://chrome.google.com/webstore/detail/material-design-color-pal/daejjicekmhkbpgahnhfmpmjhojhpane">Material Design Color Palette</a>
+                    <p>Est une extension qui permet d'avoir une palette de couleur prete à être copier pour être inserer dans nos feuille de style</p>
+                    <img class="img_article" src="https://lh3.googleusercontent.com/9VBuDQuYsxHf7YvOqWAj4ZKNHLRwfAwTzBRwwvSTDKXhZZR6aNxJzpRlCaIyTHesDJGqVWrcPfU=w640-h400-e365-rj-sc0x00ffffff" alt="Material Design color palette">
+                    <br>
+                </li>
+                
+                <h2>Extensions quotidienne</h2>
+                <p>Je préfère mozzila quand je développe pas du coup les <a href="#">liens</a> seront pour mozzila, mais vous pouvez facilement trouver leurs équivalente pour Chrome ou autres.</p>
+<!--                cnrtl-->
+                <br>
+                <li>
+                    <a href="https://addons.mozilla.org/fr/firefox/addon/cnrtl-addon/">CNRTL</a>
+                    <p>C'est une extensions qui permet de vous donné la définition d'un mot que vous aurez sélectionné au préalable</p>
+                    <br>
+                </li>
+<!--                dark background and light text-->
+                <li>
+                    <a href="https://addons.mozilla.org/fr/firefox/addon/dark-background-light-text/">Dark Background and Light Text</a>
+                    <p>Une extension incroyable qui permet de changer automatiquement la couleurs des sites à votre guise</p>
+                    <img class="img_article" src="image/DarkBackgroundAndLightText.PNG" alt="Dark Background and Light Text">
+                </li>
+                <br>
+<!--                ublock origin-->
+                <li>
+                    <a href="https://addons.mozilla.org/fr/firefox/addon/ublock-origin/">uBlock Origin</a>
+                    <p>un bloqueur de pub</p>
+                </li>
+                <br>
+<!--                mate translate-->
+                <li>
+                    <a href="https://addons.mozilla.org/fr/firefox/addon/instant-translate/">Mate Translate</a>
+                    <p>Un traducteur rapide. <br>
+                    Vous double cliqué sur le mot puis cliqué sur l'icone de Mate et c'est traduit</p>
+                </li>
+            </ul>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt id labore quis temporibus unde. Ab amet doloremque nostrum tenetur voluptatem. Dolor error et facere itaque laudantium, necessitatibus quasi qui sapiente?</p>
+        </article>
+    </section>
+
+    <section class="container">
+        <div>
+
+        </div>
+    </section>
+</main>
+<footer id="main_footer" class="main_footer"></footer>
+</body>
+</html>
